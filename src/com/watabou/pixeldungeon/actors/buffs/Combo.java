@@ -24,7 +24,7 @@ import com.watabou.pixeldungeon.utils.GLog;
 
 public class Combo extends Buff {
 	
-	private static String TXT_COMBO = "%d hit combo!";
+	private static String TXT_COMBO = "%d menyerang kombo!";
 	
 	public int count = 0;
 	
@@ -35,7 +35,7 @@ public class Combo extends Buff {
 	
 	@Override
 	public String toString() {
-		return "Combo";
+		return "Kombo";
 	}
 	
 	public int hit( Char enemy, int damage ) {

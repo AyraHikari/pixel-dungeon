@@ -23,12 +23,12 @@ import com.watabou.pixeldungeon.windows.WndStory;
 public class IntroScene extends PixelScene {
 
 	private static final String TEXT = 	
-		"Many heroes of all kinds ventured into the Dungeon before you. Some of them have returned with treasures and magical " +
-		"artifacts, most have never been heard of since. But none have succeeded in retrieving the Amulet of Yendor, " +
-		"which is told to be hidden in the depths of the Dungeon.\n\n" +
+		"Banyak pahlawan dari segala jenis berkelana ke Ruang bawah tanah sebelum Anda. Beberapa dari mereka telah kembali " +
+		"dengan harta dan sihir artefak, sebagian besar belum pernah terdengar sejak itu. Tetapi tidak ada yang berhasil " +
+		"mengambil Amulet Yendor, yang diceritakan disembunyikan di kedalaman Dungeon.\n\n" +
 		"" +
-		"You consider yourself ready for the challenge, but most importantly, you feel that fortune smiles on you. " +
-		"It's time to start your own adventure!";
+		"Anda menganggap diri Anda siap untuk tantangan, tetapi yang paling penting, Anda merasa bahwa keberuntungan " +
+		"tersenyum pada Anda. Saatnya memulai petualangan Anda sendiri!";
 	
 	@Override
 	public void create() {

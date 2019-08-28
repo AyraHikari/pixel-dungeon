@@ -111,22 +111,22 @@ import com.watabou.utils.Random;
 
 public class Hero extends Char {
 	
-	private static final String TXT_LEAVE = "One does not simply leave Pixel Dungeon.";
+	private static final String TXT_LEAVE = "Tidak dapat meninggalkan Pixel Dungeon.";
 	
-	private static final String TXT_LEVEL_UP = "level up!";
+	private static final String TXT_LEVEL_UP = "naik tingkat!";
 	private static final String TXT_NEW_LEVEL = 
-		"Welcome to level %d! Now you are healthier and more focused. " +
-		"It's easier for you to hit enemies and dodge their attacks.";
+		"Selamat datang di level %d! Sekarang Anda lebih sehat dan lebih fokus. " +
+		"Lebih mudah bagi Anda untuk mengenai musuh dan menghindari serangan mereka.";
 	
-	public static final String TXT_YOU_NOW_HAVE	= "You now have %s";
+	public static final String TXT_YOU_NOW_HAVE	= "Anda sudah punya %s";
 	
-	private static final String TXT_SOMETHING_ELSE	= "There is something else here";
-	private static final String TXT_LOCKED_CHEST	= "This chest is locked and you don't have matching key";
-	private static final String TXT_LOCKED_DOOR		= "You don't have a matching key";
-	private static final String TXT_NOTICED_SMTH	= "You noticed something";
+	private static final String TXT_SOMETHING_ELSE	= "Ada sesuatu yang lain di sini";
+	private static final String TXT_LOCKED_CHEST	= "Peti ini terkunci dan Anda tidak memiliki kunci yang cocok";
+	private static final String TXT_LOCKED_DOOR		= "Anda tidak memiliki kunci yang cocok";
+	private static final String TXT_NOTICED_SMTH	= "Anda memperhatikan sesuatu";
 	
 	private static final String TXT_WAIT	= "...";
-	private static final String TXT_SEARCH	= "search";
+	private static final String TXT_SEARCH	= "cari";
 	
 	public static final int STARTING_STR = 10;
 	

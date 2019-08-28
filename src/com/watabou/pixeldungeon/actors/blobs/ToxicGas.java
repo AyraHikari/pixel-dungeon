@@ -80,7 +80,7 @@ public class ToxicGas extends Blob implements Hero.Doom {
 	
 	@Override
 	public String tileDesc() {
-		return "A greenish cloud of toxic gas is swirling here.";
+		return "Awan kehijauan gas beracun berputar-putar di sini.";
 	}
 	
 	@Override
@@ -89,6 +89,6 @@ public class ToxicGas extends Blob implements Hero.Doom {
 		Badges.validateDeathFromGas();
 		
 		Dungeon.fail( Utils.format( ResultDescriptions.GAS, Dungeon.depth ) );
-		GLog.n( "You died from a toxic gas.." );
+		GLog.n( "Anda meninggal karena gas beracun..." );
 	}
 }

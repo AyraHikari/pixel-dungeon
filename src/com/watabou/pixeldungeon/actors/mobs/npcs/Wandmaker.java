@@ -55,7 +55,7 @@ import com.watabou.utils.Random;
 public class Wandmaker extends NPC {
 
 	{	
-		name = "old wandmaker";
+		name = "kakek pembuat tongkat";
 		spriteClass = WandmakerSprite.class;
 	}
 	
@@ -72,7 +72,7 @@ public class Wandmaker extends NPC {
 	
 	@Override
 	public String defenseVerb() {
-		return "absorbed";
+		return "terserap";
 	}
 	
 	@Override
@@ -101,8 +101,8 @@ public class Wandmaker extends NPC {
 	@Override
 	public String description() {
 		return 
-			"This old but hale gentleman wears a slightly confused " +
-			"expression. He is protected by a magic shield.";
+			"Pria tua tapi sehat ini memakai sedikit ekspresi bingung. " +
+			"Dia dilindungi oleh perisai ajaib.";
 	}
 	
 	public static class Quest {
@@ -293,12 +293,12 @@ public class Wandmaker extends NPC {
 	private static final QuestHandler berryQuest = new QuestHandler() {
 		{
 			txtQuest1 = 
-				"Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient - " +
-				"a _Rotberry seed_. Being a magic user, I'm quite able to defend myself against local monsters, " +
-				"but I'm getting lost in no time, it's very embarrassing. Probably you could help me? I would be " +
-				"happy to pay for your service with one of my best wands.";
+				"Oh, kejutan yang menyenangkan untuk bertemu orang yang baik di tempat seperti itu! Saya datang ke sini untuk bahan langka - " +
+				"_biji rotberry_. Menjadi pengguna sihir, saya cukup bisa membela diri terhadap monster lokal, " +
+				"tapi aku tersesat dalam waktu singkat, ini sangat memalukan. Mungkin Anda bisa membantu saya? saya akan " +
+				"senang membayar layanan Anda dengan salah satu tongkat terbaik saya.";
 			txtQuest2 = 
-				"Any luck with a _Rotberry seed_, %s? No? Don't worry, I'm not in a hurry.";
+				"Semoga beruntung dengan _biji Rotberry_, %s? Tidak? Jangan khawatir, aku tidak terburu-buru.";
 		}
 
 		@Override
@@ -319,12 +319,12 @@ public class Wandmaker extends NPC {
 	private static final QuestHandler dustQuest = new QuestHandler() {
 		{
 			txtQuest1 = 
-				"Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient - " +
-				"_corpse dust_. It can be gathered from skeletal remains and there is an ample number of them in the dungeon. " +
-				"Being a magic user, I'm quite able to defend myself against local monsters, but I'm getting lost in no time, " +
-				"it's very embarrassing. Probably you could help me? I would be happy to pay for your service with one of my best wands.";
+				"Oh, kejutan yang menyenangkan untuk bertemu orang yang baik di tempat seperti itu! Saya datang ke sini untuk bahan langka - " +
+				"_debu mayat_. Itu bisa dikumpulkan dari sisa-sisa kerangka dan ada banyak dari mereka di ruang bawah tanah. " +
+				"Menjadi pengguna sihir, saya cukup bisa membela diri terhadap monster lokal, tapi saya tersesat dalam waktu singkat, " +
+				"ini sangat memalukan. Mungkin Anda bisa membantu saya? Saya akan dengan senang hati membayar layanan Anda dengan salah satu tongkat terbaik saya.";
 			txtQuest2 = 
-				"Any luck with _corpse dust_, %s? Bone piles are the most obvious places to look.";
+				"Semoga beruntung dengan _debu mayat_, %s? Tumpukan tulang adalah tempat yang paling jelas untuk dilihat.";
 		}
 		
 		@Override
@@ -359,12 +359,12 @@ public class Wandmaker extends NPC {
 	private static final QuestHandler fishQuest = new QuestHandler() {
 		{
 			txtQuest1 = 
-				"Oh, what a pleasant surprise to meet a decent person in such place! I came here for a rare ingredient: " +
-				"a _phantom fish_. You can catch it with your bare hands, but it's very hard to notice in the water. " +
-				"Being a magic user, I'm quite able to defend myself against local monsters, but I'm getting lost in no time, " +
-				"it's very embarrassing. Probably you could help me? I would be happy to pay for your service with one of my best wands.";
+				"Oh, kejutan yang menyenangkan untuk bertemu orang yang baik di tempat seperti itu! Saya datang ke sini untuk ramuan langka: " +
+				"_seekor ikan hantu_. Anda dapat menangkapnya dengan tangan kosong, tetapi sangat sulit untuk diperhatikan di dalam air. " +
+				"Menjadi pengguna sihir, saya cukup bisa membela diri terhadap monster lokal, tapi saya tersesat dalam waktu singkat, " +
+				"ini sangat memalukan. Mungkin Anda bisa membantu saya? Saya akan dengan senang hati membayar layanan Anda dengan salah satu tongkat terbaik saya.";
 			txtQuest2 = 
-				"Any luck with a _phantom fish_, %s? You may want to try searching for it in one of the local pools.";
+				"Semoga beruntung dengan _ikan hantu_, %s? Anda mungkin ingin mencoba mencarinya di salah satu kolam renang lokal.";
 		}
 		
 		@Override

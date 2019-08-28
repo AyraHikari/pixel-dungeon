@@ -54,21 +54,21 @@ public class StartScene extends PixelScene {
 	private static final float BUTTON_HEIGHT	= 24;
 	private static final float GAP				= 2;
 	
-	private static final String TXT_LOAD	= "Load Game";
-	private static final String TXT_NEW		= "New Game";
+	private static final String TXT_LOAD	= "Muat Permainan";
+	private static final String TXT_NEW		= "Permainan baru";
 	
-	private static final String TXT_ERASE		= "Erase current game";
-	private static final String TXT_DPTH_LVL	= "Depth: %d, level: %d";
+	private static final String TXT_ERASE		= "Hapus game saat ini";
+	private static final String TXT_DPTH_LVL	= "Kedalaman: %d, tingkat: %d";
 	
-	private static final String TXT_REALLY	= "Do you really want to start new game?";
-	private static final String TXT_WARNING	= "Your current game progress will be erased.";
-	private static final String TXT_YES		= "Yes, start new game";
-	private static final String TXT_NO		= "No, return to main menu";
+	private static final String TXT_REALLY	= "Apakah Anda benar-benar ingin memulai permainan baru?";
+	private static final String TXT_WARNING	= "Kemajuan game Anda saat ini akan dihapus.";
+	private static final String TXT_YES		= "Ya, mulai game baru";
+	private static final String TXT_NO		= "Tidak, kembali ke menu utama";
 	
-	private static final String TXT_UNLOCK	= "To unlock this character class, slay the 3rd boss with any other class";
+	private static final String TXT_UNLOCK	= "Untuk membuka kunci kelas karakter ini, bunuh bos ke-3 dengan kelas lainnya";
 	
 	private static final String TXT_WIN_THE_GAME = 
-		"To unlock \"Challenges\", win the game with any character class.";
+		"Untuk membuka \"Tantangan\", menangkan game dengan kelas karakter apa pun.";
 	
 	private static final float WIDTH_P	= 116;
 	private static final float HEIGHT_P	= 220;

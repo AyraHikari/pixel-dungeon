@@ -42,8 +42,8 @@ import com.watabou.utils.Random;
 
 public class Burning extends Buff implements Hero.Doom {
 
-	private static final String TXT_BURNS_UP		= "%s burns up!";
-	private static final String TXT_BURNED_TO_DEATH	= "You burned to death...";
+	private static final String TXT_BURNS_UP		= "%s terbakar!";
+	private static final String TXT_BURNED_TO_DEATH	= "Anda terbakar sampai mati...";
 	
 	private static final float DURATION = 8f;
 	

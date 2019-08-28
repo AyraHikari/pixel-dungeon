@@ -38,7 +38,7 @@ import com.watabou.utils.Bundle;
 
 public enum HeroClass {
 
-	WARRIOR( "warrior" ), MAGE( "mage" ), ROGUE( "rogue" ), HUNTRESS( "huntress" );
+	WARRIOR( "prajurit" ), MAGE( "penyihir" ), ROGUE( "pengembara" ), HUNTRESS( "pemburu" );
 	
 	private String title;
 	
@@ -47,36 +47,36 @@ public enum HeroClass {
 	}
 	
 	public static final String[] WAR_PERKS = {
-		"Warriors start with 11 points of Strength.",
-		"Warriors start with a unique short sword. This sword can be later \"reforged\" to upgrade another melee weapon.",
-		"Warriors are less proficient with missile weapons.",
-		"Any piece of food restores some health when eaten.",
-		"Potions of Strength are identified from the beginning.",
+		"Prajurit mulai dengan 11 poin Kekuatan.",
+		"Prajurit mulai dengan pedang pendek yang unik. Pedang ini nantinya dapat \"di-tempa ulang\" untuk meningkatkan senjata huru-hara lainnya.",
+		"Prajurit kurang mahir dengan senjata rudal.",
+		"Setiap bagian dari makanan mengembalikan kesehatan ketika dimakan.",
+		"Ramuan Kekuatan diidentifikasi sejak awal.",
 	};
 	
 	public static final String[] MAG_PERKS = {
-		"Mages start with a unique Wand of Magic Missile. This wand can be later \"disenchanted\" to upgrade another wand.",
-		"Mages recharge their wands faster.",
-		"When eaten, any piece of food restores 1 charge for all wands in the inventory.",
-		"Mages can use wands as a melee weapon.",
-		"Scrolls of Identify are identified from the beginning."
+		"Penyihir mulai dengan Tongkat Sihir Misil yang unik. Tongkat ini nantinya bisa \"di-guna-guna\" untuk memutakhirkan tongkat lainnya.",
+		"Penyihir mengisi ulang tongkat mereka lebih cepat.",
+		"Ketika makan, setiap makanan mengembalikan 1 biaya untuk semua tongkat dalam tas.",
+		"Penyihir dapat menggunakan tongkat sebagai senjata jarak dekat.",
+		"Gulungan Identifikasi diidentifikasi dari awal."
 	};
 	
 	public static final String[] ROG_PERKS = {
-		"Rogues start with a Ring of Shadows+1.",
-		"Rogues identify a type of a ring on equipping it.",
-		"Rogues are proficient with light armor, dodging better while wearing one.",
-		"Rogues are proficient in detecting hidden doors and traps.",
-		"Rogues can go without food longer.",
-		"Scrolls of Magic Mapping are identified from the beginning."
+		"Pengembara mulai dengan Cincin Kegelapan+1.",
+		"Pengembara mengidentifikasi jenis cincin saat mengenakannya.",
+		"Pengembara mahir dengan baju besi ringan, menghindari lebih baik saat mengenakan satu.",
+		"Penyamun mahir dalam mendeteksi pintu dan perangkap tersembunyi.",
+		"Penyamun bisa pergi tanpa makanan lebih lama.",
+		"Gulungan Pemetaan Ajaib diidentifikasi dari awal."
 	};
 	
 	public static final String[] HUN_PERKS = {
-		"Huntresses start with 15 points of Health.",
-		"Huntresses start with a unique upgradeable boomerang.",
-		"Huntresses are proficient with missile weapons and get a damage bonus for excessive strength when using them.",
-		"Huntresses gain more health from dewdrops.",
-		"Huntresses sense neighbouring monsters even if they are hidden behind obstacles."
+		"Pemburu mulai dengan 15 poin Kesehatan.",
+		"Pemburu mulai dengan bumerang unik yang dapat di tingkatkan.",
+		"Pemburu mahir dengan senjata rudal dan mendapatkan bonus kerusakan untuk kekuatan yang berlebihan saat menggunakannya.",
+		"Pemburu mendapatkan lebih banyak kesehatan dari tetesan embun.",
+		"Huntress merasakan monster tetangga bahkan jika mereka tersembunyi di balik ruangan."
 	};
 	
 	public void initHero( Hero hero ) {

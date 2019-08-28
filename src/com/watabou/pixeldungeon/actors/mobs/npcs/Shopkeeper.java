@@ -77,12 +77,12 @@ public class Shopkeeper extends NPC {
 	@Override
 	public String description() {
 		return 
-			"This stout guy looks more appropriate for a trade district in some large city " +
-			"than for a dungeon. His prices explain why he prefers to do business here.";
+			"Pria gagah ini terlihat lebih cocok untuk distrik perdagangan di beberapa kota besar " +
+			"daripada untuk penjara bawah tanah. Harganya menjelaskan mengapa dia lebih suka berbisnis di sini.";
 	}
 	
 	public static WndBag sell() {
-		return GameScene.selectItem( itemSelector, WndBag.Mode.FOR_SALE, "Select an item to sell" );
+		return GameScene.selectItem( itemSelector, WndBag.Mode.FOR_SALE, "Pilih barang untuk dijual" );
 	}
 	
 	private static WndBag.Listener itemSelector = new WndBag.Listener() {

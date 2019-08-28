@@ -36,13 +36,14 @@ import com.watabou.pixeldungeon.ui.Window;
 public class AboutScene extends PixelScene {
 
 	private static final String TXT = 
-		"Code & graphics: Watabou\n" +
-		"Music: Cube_Code\n\n" + 
-		"This game is inspired by Brian Walker's Brogue. " +
-		"Try it on Windows, Mac OS or Linux - it's awesome! ;)\n\n" +
-		"Please visit official website for additional info:";
+		"Kode & grafik: Watabou\n" +
+		"Musik: Cube_Code\n" + 
+		"Penerjemah: Ayra Hikari (Tedy Ramdhani)\n\n" + 
+		"Game ini terinspirasi oleh Brian Walker's Brogue. " +
+		"Cobalah di Windows, Mac OS atau Linux - ini luar biasa! ;)\n\n" +
+		"Jika ada masalah atau belum di terjemmah, kontak saya:";
 	
-	private static final String LNK = "pixeldungeon.watabou.ru";
+	private static final String LNK = "t.me/AyraHikari";
 	
 	@Override
 	public void create() {
