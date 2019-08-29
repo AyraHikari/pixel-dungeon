@@ -35,7 +35,7 @@ import com.watabou.utils.Random;
 
 public class Viscosity extends Glyph {
 
-	private static final String TXT_VISCOSITY	= "%s of viscosity";
+	private static final String TXT_VISCOSITY	= "%s viskositas";
 	
 	private static ItemSprite.Glowing PURPLE = new ItemSprite.Glowing( 0x8844CC );
 	

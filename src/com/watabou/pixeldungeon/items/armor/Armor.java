@@ -38,15 +38,15 @@ public class Armor extends EquipableItem {
 	
 	private static final int HITS_TO_KNOW	= 10;
 	
-	private static final String TXT_EQUIP_CURSED	= "your %s constricts around you painfully";
+	private static final String TXT_EQUIP_CURSED	= "Anda %s menyempit di sekitar Anda dengan menyakitkan";
 		
-	private static final String TXT_IDENTIFY	= "you are now familiar enough with your %s to identify it. It is %s.";
+	private static final String TXT_IDENTIFY	= "Anda sekarang cukup kenal dengan %s Anda untuk mengidentifikasinya. Ini %s.";
 	
 	private static final String TXT_TO_STRING	= "%s :%d";
-	private static final String TXT_BROKEN		= "broken %s :%d";
+	private static final String TXT_BROKEN		= "%s rusak :%d";
 	
 	private static final String TXT_INCOMPATIBLE = 
-		"Interaction of different types of magic has erased the glyph on this armor!";
+		"Interaksi berbagai jenis sihir telah menghapus glyph pada baju besi ini!";
 	
 	public int tier;
 	public int STR;
@@ -62,8 +62,8 @@ public class Armor extends EquipableItem {
 		STR = typicalSTR();
 	}
 	
-	private static final String UNFAMILIRIARITY	= "unfamiliarity";
-	private static final String GLYPH			= "glyph";
+	private static final String UNFAMILIRIARITY	= "ketidakbiasaan";
+	private static final String GLYPH			= "mesin terbang";
 	
 	@Override
 	public void storeInBundle( Bundle bundle ) {
@@ -220,41 +220,41 @@ public class Armor extends EquipableItem {
 		
 		if (levelKnown) {
 			info.append( 
-				"\n\nThis " + name + " provides damage absorption up to " +
-				"" + Math.max( DR(), 0 ) + " points per attack. " );
+				"\n\nIni " + name + " memberikan kerusakan penyerapan hingga " +
+				"" + Math.max( DR(), 0 ) + " poin per serangan. " );
 			
 			if (STR > Dungeon.hero.STR()) {
 				
 				if (isEquipped( Dungeon.hero )) {
 					info.append( 
-						"\n\nBecause of your inadequate strength your " +
-						"movement speed and defense skill is decreased. " );
+						"\n\nKarena kekuatan Anda yang tidak memadai " +
+						"kecepatan gerakan dan keterampilan pertahanan berkurang. " );
 				} else {
 					info.append( 
-						"\n\nBecause of your inadequate strength wearing this armor " +
-						"will decrease your movement speed and defense skill. " );
+						"\n\nKarena kekuatanmu yang tidak memadai memakai baju besi ini " +
+						"akan mengurangi kecepatan gerakan dan keterampilan pertahanan Anda. " );
 				}
 				
 			}
 		} else {
 			info.append( 
-				"\n\nTypical " + name + " provides damage absorption up to " + typicalDR() + " points per attack " +
-				" and requires " + typicalSTR() + " points of strength. " );
+				"\n\nKhas " + name + " memberikan kerusakan penyerapan hingga " + typicalDR() + " poin per serangan " +
+				" dan membutuhkan " + typicalSTR() + " poin kekuatan. " );
 			if (typicalSTR() > Dungeon.hero.STR()) {
-				info.append( "Probably this armor is too heavy for you. " );
+				info.append( "Mungkin baju besi ini terlalu berat untukmu. " );
 			}
 		}
 		
 		if (glyph != null) {
-			info.append( "It is enchanted." );
+			info.append( "Itu terpesona." );
 		}
 		
 		if (isEquipped( Dungeon.hero )) {
-			info.append( "\n\nYou are wearing the " + name + 
-				(cursed ? ", and because it is cursed, you are powerless to remove it." : ".") ); 
+			info.append( "\n\nAnda mengenakan " + name + 
+				(cursed ? ", dan karena dikutuk, Anda tidak berdaya untuk menghapusnya." : ".") ); 
 		} else {
 			if (cursedKnown && cursed) {
-				info.append( "\n\nYou can feel a malevolent magic lurking within the " + name + "." );
+				info.append( "\n\nAnda dapat merasakan sihir jahat yang mengintai di dalam " + name + "." );
 			}
 		}
 		

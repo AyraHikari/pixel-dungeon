@@ -118,7 +118,7 @@ public class Hero extends Char {
 		"Selamat datang di level %d! Sekarang Anda lebih sehat dan lebih fokus. " +
 		"Lebih mudah bagi Anda untuk mengenai musuh dan menghindari serangan mereka.";
 	
-	public static final String TXT_YOU_NOW_HAVE	= "Anda sudah punya %s";
+	public static final String TXT_YOU_NOW_HAVE	= "Anda mendapatkan %s";
 	
 	private static final String TXT_SOMETHING_ELSE	= "Ada sesuatu yang lain di sini";
 	private static final String TXT_LOCKED_CHEST	= "Peti ini terkunci dan Anda tidak memiliki kunci yang cocok";

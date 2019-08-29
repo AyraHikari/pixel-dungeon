@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class LeatherArmor extends Armor {
 
 	{	
-		name = "leather armor";
+		name = "baju besi kulit";
 		image = ItemSpriteSheet.ARMOR_LEATHER;
 	}
 	
@@ -33,6 +33,6 @@ public class LeatherArmor extends Armor {
 	
 	@Override
 	public String desc() {
-		return "Armor made from tanned monster hide. Not as light as cloth armor but provides better protection.";
+		return "Armor yang terbuat dari kulit monster yang disamak. Tidak seringan baju besi kain tetapi memberikan perlindungan yang lebih baik.";
 	}
 }

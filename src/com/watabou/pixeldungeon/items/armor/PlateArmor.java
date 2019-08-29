@@ -23,7 +23,7 @@ import com.watabou.pixeldungeon.sprites.ItemSpriteSheet;
 public class PlateArmor extends Armor {
 
 	{
-		name = "plate armor";
+		name = "baju besi berpelat";
 		image = ItemSpriteSheet.ARMOR_PLATE;
 	}
 	
@@ -34,7 +34,7 @@ public class PlateArmor extends Armor {
 	@Override
 	public String desc() {
 		return 
-			"Enormous plates of metal are joined together into a suit that provides " +
-			"unmatched protection to any adventurer strong enough to bear its staggering weight.";
+			"Pelat besar dari logam bergabung bersama menjadi setelan yang menyediakan perlindungan " +
+			"tak tertandingi untuk setiap petualang yang cukup kuat untuk menanggung beratnya yang mengejutkan.";
 	}
 }

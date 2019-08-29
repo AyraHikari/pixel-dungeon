@@ -37,10 +37,10 @@ import com.watabou.pixeldungeon.utils.GLog;
 
 public class RogueArmor extends ClassArmor {
 	
-	private static final String TXT_FOV 		= "You can only jump to an empty location in your field of view";
-	private static final String TXT_NOT_ROGUE	= "Only rogues can use this armor!";
+	private static final String TXT_FOV 		= "Anda hanya dapat melompat ke lokasi kosong di bidang tampilan Anda";
+	private static final String TXT_NOT_ROGUE	= "Hanya pengembara yang bisa menggunakan baju besi ini!";
 	
-	private static final String AC_SPECIAL = "SMOKE BOMB"; 
+	private static final String AC_SPECIAL = "BOM ASAP"; 
 	
 	{
 		name = "rogue garb";
@@ -70,8 +70,8 @@ public class RogueArmor extends ClassArmor {
 	@Override
 	public String desc() {
 		return 
-			"Wearing this dark garb, a rogue can perform a trick, that is called \"smoke bomb\" " +
-			"(though no real explosives are used): he blinds enemies who could see him and jumps aside.";
+			"Mengenakan pakaian gelap ini, seorang pengembara dapat melakukan trik, yang disebut \"bom asap\" " +
+			"(meskipun tidak ada bahan peledak yang digunakan): dia membutakan musuh yang bisa melihatnya dan melompat ke samping.";
 	}
 	
 	protected static CellSelector.Listener teleporter = new  CellSelector.Listener() {
@@ -110,7 +110,7 @@ public class RogueArmor extends ClassArmor {
 		
 		@Override
 		public String prompt() {
-			return "Choose a location to jump to";
+			return "Pilih lokasi untuk melompat";
 		}
 	};
 }

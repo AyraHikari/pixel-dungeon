@@ -33,8 +33,8 @@ import com.watabou.utils.Callback;
 
 public class HuntressArmor extends ClassArmor {
 	
-	private static final String TXT_NO_ENEMIES 		= "No enemies in sight";
-	private static final String TXT_NOT_HUNTRESS	= "Only huntresses can use this armor!";
+	private static final String TXT_NO_ENEMIES 		= "Tidak ada musuh yang terlihat";
+	private static final String TXT_NOT_HUNTRESS	= "Hanya pemburu yang bisa menggunakan baju besi ini!";
 	
 	private static final String AC_SPECIAL = "SPECTRAL BLADES"; 
 	
@@ -100,8 +100,8 @@ public class HuntressArmor extends ClassArmor {
 	@Override
 	public String desc() {
 		return
-			"A huntress in such cloak can create a fan of spectral blades. Each of these blades " +
-			"will target a single enemy in the huntress's field of view, inflicting damage depending " +
-			"on her currently equipped melee weapon.";
+			"Seorang pemburu dalam jubah seperti itu dapat membuat penggemar pisau spektral. Masing-masing " +
+			"bilah ini akan menargetkan satu musuh di bidang pandangan pemburu, menimbulkan kerusakan " +
+			"tergantung pada senjata jarak dekat yang saat ini dilengkapi.";
 	}
 }

@@ -25,8 +25,8 @@ import com.watabou.utils.Bundle;
 
 abstract public class ClassArmor extends Armor {
 	
-	private static final String TXT_LOW_HEALTH		= "Your health is too low!";
-	private static final String TXT_NOT_EQUIPPED	= "You need to be wearing this armor to use its special power!";
+	private static final String TXT_LOW_HEALTH		= "Kesehatanmu terlalu rendah!";
+	private static final String TXT_NOT_EQUIPPED	= "Anda harus mengenakan baju besi ini untuk menggunakan kekuatan spesialnya!";
 	
 	private int DR;
 	
@@ -136,6 +136,6 @@ abstract public class ClassArmor extends Armor {
 	
 	@Override
 	public String desc() {
-		return "The thing looks awesome!";
+		return "Ini terlihat luar biasa!";
 	}
 }
